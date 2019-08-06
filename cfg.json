@@ -1,0 +1,16 @@
+{
+    "debug": true,
+    "http": {
+        "listen": "0.0.0.0:4000",
+        "token": ""
+    },
+    "smtp": {
+        "addr": "smtp.stack.tw:465",
+        "username": "mailsend@stack.tw",
+        "password": "2018@mail",
+        "from": "mailsend@stack.tw",
+        "tls":true,
+        "anonymous":false,
+        "skipVerify":true
+    }
+}
